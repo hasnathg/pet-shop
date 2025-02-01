@@ -92,7 +92,7 @@
 
        <main class="sm:mt-20 md:mt-96 md:mr-2 sm:ml-4 md:ml-32 py-48">
         <div>
-          <h1 class="font-adlam-display text-4xl">Browse By Categories</h1>
+          <h1 class="font-adlam-display text-4xl sm:hidden md:block lg:block">Browse By Categories</h1>
           
           <!-- 6 cards -->
           
@@ -272,9 +272,14 @@
 
               </section>
 
+
+              <!-- mobile responsive -->
+
+      
+
         
               <footer class="pt-28 mt-56 bg-[#FFDC26] bg-opacity-50 w-full">
-                <div class="flex justify-around">
+                <div class="flex sm:flex-col md:flex-row lg:flex-row lg:justify-around md:justify-around">
                   <div class="flex flex-col">
                     <div class="flex"> <img src="assets/logo-footer.png" alt="">
                       <p class="text-2xl">Browse Pet</p>
@@ -289,6 +294,26 @@
                     <p class="pt-5" >Breeds</p>
                     <p class="pt-5">Contact us</p>
 
+                  </div>
+                </div>
+
+                <!-- mobile device -->
+                 <div class="relative max-h-96 pl-4 md:hidden lg:hidden flex bg-purple-200">
+                  <div><h2>Pet Grooming Mitt</h2>
+                    <h1>$7.99</h1></div>
+                  <div>
+                    
+                <div class="absolute w-14"><img src="assets/cute-dog-mid.png" alt=""></div>
+              </div>
+                  <div></div>
+                  <div></div>
+                 </div>
+                <div class="flex justify-arround md:hidden lg:hidden">
+                  <h3 class="font-bold">Follow Us</h3>
+                  <div class="mt-4 space-x-4 flex justify-arround">
+                    <a href="#"><img src="assets/facebook.png" alt="Facebook" class="h-6"></a>
+                    <a href="#"><img src="assets/instagram.png" alt="Instagram" class="h-6"></a>
+                    <a href="#"><img src="assets/x.png" alt="Twitter" class="h-6"></a>
                   </div>
                 </div>
 
